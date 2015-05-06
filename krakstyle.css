@@ -1,0 +1,165 @@
+@-moz-document domain("krakissi.net") {
+ins, img[src="http://creativecommons.org/licenses/by-sa/3.0/"] {
+    display: none !important
+    }
+
+* {
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+body {
+	color: #c9d2de;
+	background-color: #3f464e;
+	font-family: Open Sans, sans-serif;
+  font-size:10pt;
+	overflow: hidden;
+}
+a {
+	color: #39a58d;
+}
+a:hover {
+	color: #139ec8;
+}
+
+#chatbody {
+	word-wrap: break-word;
+	overflow: auto;
+	padding: 0 5px;
+
+	position: absolute;
+	bottom: 74px;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+}
+
+#post_status {
+	display: none;
+	position: absolute;
+	bottom: 80px;
+	right: 25px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bolder;
+	background-color: #373d45;
+	border: 1px solid #373d45;
+	padding: 2px 4px 0 4px;
+}
+
+#missed_ack {
+	display: none;
+	position: absolute;
+	bottom: 110px;
+	right: 25px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bolder;
+	background-color: #373d45;
+	border: 1px solid #373d45;
+	padding: 2px 4px 0 4px;
+}
+
+
+#preferences_window {
+	display: none;
+	position: absolute;
+	bottom: 80px;
+	left: 25px;
+	font-size: 12px;
+	font-weight: bolder;
+	background-color: #373d45;
+	border: 1px solid #373d45;
+	padding: 2px 4px 0 4px;
+}
+#preferences_window div {
+	padding: 0.5em 0;
+}
+#preferences_window div.submitterdiv {
+	text-align: right;
+	width: 100%;
+}
+#preferences_window input {
+  border: solid 1px #49515a;
+	background-color: #49515a;
+}
+
+#preferences_window button {
+	border: solid 1px #39a58d;
+	background-color: #39a58d;
+  color: white;
+}
+
+#message {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position: absolute;
+	bottom: 18px;
+	height: 48px;
+	width: 100%;
+	left: 0px;
+
+	font-family: Open Sans, sans-serif;
+  font-size:10pt;
+	background-color: #49515a;
+  color: white;
+	padding: 0.2em 0.1em;
+	border: 0;
+
+	resize: none;
+}
+
+#controls {
+	font-size: 12px;
+	color: #8c9aa8;
+}
+#controls a {
+	color: #8c9aa8;
+}
+#controls a:hover {
+	color: #39a58d;
+}
+
+#control_left {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#control_center {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+#control_right {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.scriptonlylink {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#chirp_vol {
+	padding: 0px;
+	margin: -5px;
+	margin-right: 2.5px;
+}
+
+.greentext {
+	color: #02c873;
+	font-family:CodingFontTobi,monospace;
+	font-size:12pt;
+}
+.inlinequote {
+	color: white;
+}
+.hashtag {
+	color: #139ec8;
+}
