@@ -5,11 +5,10 @@ ins, img[src="http://creativecommons.org/licenses/by-sa/3.0/"] {
 
 * {
 	-moz-tab-size: 4;
-	tab-size: 4;
 }
 body {
 	color: #c9d2de;
-	background-color: #3f464e;
+	background-color: #373D45;
 	font-family: Open Sans, sans-serif;
   font-size:10pt;
 	overflow: hidden;
@@ -79,8 +78,8 @@ a:hover {
 	width: 100%;
 }
 #preferences_window input {
-  border: solid 1px #49515a;
-	background-color: #49515a;
+  border: solid 1px #49515A;
+	background-color: #49515A;
 }
 
 #preferences_window button {
@@ -102,8 +101,8 @@ a:hover {
 
 	font-family: Open Sans, sans-serif;
   font-size:10pt;
-	background-color: #49515a;
-  color: white;
+	background-color: #3F4852;
+  color: #C9D2DE;
 	padding: 0.2em 0.1em;
 	border: 0;
 
@@ -162,4 +161,37 @@ a:hover {
 }
 .hashtag {
 	color: #139ec8;
+}
+	
+/*.unchecked_highlighter {
+	background-color: #E5B13D !important;
+}*/
+	
+/*This filters darker username colors to shades that match the new BG color better.*/
+
+.user[username=krakissi] {
+	  color: #AB75C0;
+}
+	
+.user[username=skunix] {
+	  color: #00AC62;
+}
+	
+.user[username=spacemonkey] {
+	  color: #282D34;
+text-shadow: 1px 1px 0 #8C9AA8, -1px -1px 0 #8C9AA8, 1px -1px 0 #8C9AA8,
+            -1px 1px 0 #8C9AA8, 1px 1px 1px white;
+}
+	
+.user[username=reese] {
+	color: #B49C3E;
+}
+	
+.user[username=lmbtfy] {
+	color: #139EC8;
+	text-shadow: none;
+}
+	
+.user[username=giftgiver] {
+	color: #AB4572;
 }
