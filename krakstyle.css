@@ -1,7 +1,7 @@
 @-moz-document domain("krakissi.net") {
 ins, img[src="http://creativecommons.org/licenses/by-sa/3.0/"] {
     display: none !important
-    }
+}
 
 * {
 	-moz-tab-size: 4;
@@ -150,19 +150,31 @@ a:hover {
 	margin: -5px;
 	margin-right: 2.5px;
 }
+	
+.code {
+  font-family: 'Ubuntu',monospace;
+  font-size: 12pt;
+	color: white;
+  text-align: left;
+  white-space: pre-wrap;
+}
 
 .greentext {
 	color: #02c873;
-	font-family:CodingFontTobi,monospace;
+	font-family:'Ubuntu',monospace;
 	font-size:12pt;
 }
+	
 .inlinequote {
 	color: white;
 }
+	
 .hashtag {
 	color: #139ec8;
 }
-	
+
+/*This changes the bright yellow highlight on the 'bottom' link, but breaks things.*/	
+
 /*.unchecked_highlighter {
 	background-color: #E5B13D !important;
 }*/
@@ -194,4 +206,6 @@ text-shadow: 1px 1px 0 #8C9AA8, -1px -1px 0 #8C9AA8, 1px -1px 0 #8C9AA8,
 	
 .user[username=giftgiver] {
 	color: #AB4572;
+}
+	
 }
